@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 class Solution {
     public int[] solution(int[] answers) {
         int[] a = {1,2,3,4,5};
