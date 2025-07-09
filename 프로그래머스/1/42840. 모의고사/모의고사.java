@@ -27,6 +27,10 @@ class Solution {
             }
         }
         
-        return result.stream().mapToInt(i->i).toArray();
+        int[] answer = new int[result.size()];
+for (int i = 0; i < result.size(); i++) {
+    answer[i] = result.get(i);
+}
+return answer;
     }
 }
